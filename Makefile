@@ -1,5 +1,5 @@
-TARGETS = server_img server_mt server_q server_lim server_multi server_pol
-LIBS = timelib imglib md5sum
+TARGETS = server_img_perf server_img server_mt server_q server_lim server_multi server_pol
+LIBS = timelib perflib imglib md5sum
 LDFLAGS = -lm -lpthread -O0
 BUILDDIR = build
 BUILD_TARGETS = $(addprefix $(BUILDDIR)/,$(TARGETS))

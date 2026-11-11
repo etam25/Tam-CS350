@@ -1,29 +1,3 @@
-/*******************************************************************************
-* Image Manipulation Library (header)
-*
-* Description:
-*     A library to handle various image-related functions and operations.
-*
-* Author:
-*     Renato Mancuso <rmancuso@bu.edu>
-*     Koneshka Bandyopadhyay <kon1402@bu.edu>
-*
-* Affiliation:
-*     Boston University
-*
-* Creation Date:
-*     October 23, 2023
-*
-* Last Update:
-*     October 23, 2026
-*
-* Notes:
-*     Ensure to link against the necessary dependencies when compiling and
-*     using this library. Modifications or improvements are welcome. Please
-*     refer to the accompanying documentation for detailed usage instructions.
-*
-*******************************************************************************/
-
 #ifndef __IMGLIB_H__
 #define __IMGLIB_H__
 /* DO NOT WRITE ANY CODE ABOVE THIS LINE */
@@ -297,7 +271,7 @@ uint8_t sendImage(struct image* img, int sockfd);
 struct image * recvImage(int sockfd);
 
 /* Imglib version string */
-#define IMGLIB_VER "0t4i4m2f5t6r2g"
+#define IMGLIB_VER "6z6k9r1e2q4p3h"
 
 /* DO NOT WRITE ANY CODE BEYOND THIS LINE*/
 #endif

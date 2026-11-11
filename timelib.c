@@ -1,28 +1,3 @@
-/*******************************************************************************
-* Time Functions Library (implementation)
-*
-* Description:
-*     A library to handle various time-related functions and operations.
-*
-* Author:
-*     Renato Mancuso <rmancuso@bu.edu>
-*
-* Affiliation:
-*     Boston University
-*
-* Creation Date:
-*     September 10, 2023
-*
-* Last Update:
-*     October 23, 2026
-*
-* Notes:
-*     Ensure to link against the necessary dependencies when compiling and
-*     using this library. Modifications or improvements are welcome. Please
-*     refer to the accompanying documentation for detailed usage instructions.
-*
-*******************************************************************************/
-
 #include "timelib.h"
 
 /* Return the number of clock cycles elapsed when waiting for

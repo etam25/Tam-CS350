@@ -24,6 +24,9 @@
 /* Include our own md5lib */
 #include "md5sum.h"
 
+/* include our own perflib*/
+#include "perflib.h"
+
 /* Define the value of 0 for a positive acknowledgement and 1 for
  * negative acknowledgement (rejected request) */
 #define RESP_COMPLETED  0
@@ -98,7 +101,7 @@ struct response {
 	uint8_t  ack;
 };
 
-#define COMMON_VER "0t4i4m2f5t6r2g"
+#define COMMON_VER "6z6k9r1e2q4p3h"
 
 /* DO NOT WRITE ANY CODE BEYOND THIS LINE*/
 #endif

@@ -1,29 +1,3 @@
-/*******************************************************************************
-* Image Manipulation Library (implementation)
-*
-* Description:
-*     A library to handle various image-related functions and operations.
-*
-* Author:
-*     Renato Mancuso <rmancuso@bu.edu>
-*     Koneshka Bandyopadhyay <kon1402@bu.edu>
-*
-* Affiliation:
-*     Boston University
-*
-* Creation Date:
-*     October 23, 2023
-*
-* Last Update:
-*     October 23, 2026
-*
-* Notes:
-*     Ensure to link against the necessary dependencies when compiling and
-*     using this library. Modifications or improvements are welcome. Please
-*     refer to the accompanying documentation for detailed usage instructions.
-*
-*******************************************************************************/
-
 #include "imglib.h"
 
 #define pix(img, x, y)				\

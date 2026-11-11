@@ -1,27 +1,3 @@
-/*******************************************************************************
-* Time Functions Library (header)
-*
-* Description:
-*     A library to handle various time-related functions and operations.
-*
-* Author:
-*     Renato Mancuso <rmancuso@bu.edu>
-*
-* Affiliation:
-*     Boston University
-*
-* Creation Date:
-*     September 10, 2023
-*
-* Last Update:
-*     October 23, 2026
-*
-* Notes:
-*     Ensure to link against the necessary dependencies when compiling and
-*     using this library. Modifications or improvements are welcome. Please
-*     refer to the accompanying documentation for detailed usage instructions.
-*
-*******************************************************************************/
 #ifndef __TIMELIB_H__
 #define __TIMELIB_H__
 /* DO NOT WRITE ANY CODE ABOVE THIS LINE*/
@@ -70,7 +46,7 @@ int timespec_cmp(struct timespec *, struct timespec *);
 struct timespec dtotspec(double timestamp);
 
 /* Timelib version string */
-#define TIMELIB_VER "0t4i4m2f5t6r2g"
+#define TIMELIB_VER "6z6k9r1e2q4p3h"
 
 /* DO NOT WRITE ANY CODE BEYOND THIS LINE*/
 #endif
